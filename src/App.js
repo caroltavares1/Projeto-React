@@ -1,8 +1,10 @@
+import NavBar from "./components/navbar/NavBar";
+
+
 function App() {
-  let nome = "React"
   return (
-    <div>
-      <h1>Testando o {nome}</h1>
+    <div className="container">
+      <NavBar />
     </div>
   );
 }
