@@ -1,0 +1,47 @@
+section.article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 900px;
+  background-color: #17171a;
+  border-radius: 8px;
+  border: 1px solid #252529;
+  padding: 4rem;
+}
+
+section.article-container div #data {
+  color: #e07b67;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+section.article-container #title {
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+section.article-container #description {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+section div#data-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+section.article-container:hover {
+  border: 1px solid #e07b67;
+}
+
+#heart {
+  cursor: pointer;
+  color: #e07b67;
+  font-size: 2.4rem;
+}
+
+.filled {
+}
